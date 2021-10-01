@@ -8,7 +8,7 @@
 
 ## Resumo do Projeto
 
-Nos últimos anos temas relacionados ao suicídio vem ganhando espaço e sendo cada vez mais amplamente discutidos. O destaque dado a esse assunto porém, ainda está longe de ser suficiente. Com isso em mente o grupo optou por criar um dataset público com informações a respeito da taxa de suícidio em diversos países ao longo dos anos, em conjunto com outros índices socioeconômicos que o grupo achou relevante para o tema. Buscou-se assim contribuir com a divulgação de informações a respeito do suicídio e encontrar fatores que podem estar relacionados com a taxa de suicídio.
+Ultimamente tem se tornado muito comum a análise de eventos esportivos orientada a dados, especialmente para realizar previsões e apostas de curto e longo prazo sobre os resultados de um campeonato. No entanto, muitos sites de estatística ainda carecem de informações que podem ser relevantes para o entendimento dos resultados do campeonato. Nesse sentido, buscamos compilar e formatar dados diversos sobre os times e partidas no Brasileirão em um banco de dados que permita traçar correlações entre as condições dos times e seus resultados.
 
 ## Slides da Apresentação
 
