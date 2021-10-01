@@ -14,4 +14,4 @@ Nossa base de dados, além de guardar informações sobre as partidas (como data
 
 ## Slides da Apresentação
 
-
+[Slides](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/slides/Apresenta%C3%A7%C3%A3o.pdf)
