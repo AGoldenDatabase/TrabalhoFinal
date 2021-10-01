@@ -8,7 +8,11 @@
 
 ## Resumo do Projeto
 
+<<<<<<< HEAD
 Nos últimos anos temas relacionados ao suicídio vem ganhando espaço e sendo cada vez mais amplamente discutidos. O destaque dado a esse assunto porém, ainda está longe de ser suficiente. Com isso em mente o grupo optou por criar um dataset público com informações a respeito da taxa de suícidio em diversos países ao longo dos anos, em conjunto com outros índices sócio-econõmicos que o grupo achou relevante para o tema. Buscou-se assim contribuir com a divulgação de informações a respeito do suicídio e encontrar fatores que podem estar relacionados com a taxa de suicídio.
+=======
+Nos últimos anos temas relacionados ao suicídio vem ganhando espaço e sendo cada vez mais amplamente discutidos. O destaque dado a esse assunto porém, ainda está longe de ser suficiente. Com isso em mente o grupo optou por criar um dataset público com informações a respeito da taxa de suícidio em diversos países ao longo dos anos, em conjunto com outros índices socioeconômicos que o grupo achou relevante para o tema. Buscou-se assim contribuir com a divulgação de informações a respeito do suicídio e relacionar fatores que podem contribuir com a prevenção do suicídio.
+>>>>>>> 5ff8bf033195a10fd1ed8e243a63bb9c92ca3638
 
 ## Slides da Apresentação
 
