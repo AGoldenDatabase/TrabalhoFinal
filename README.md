@@ -1,4 +1,4 @@
-# Fatores que influenciam no suicídio
+# Dataset público sobre times e partidas do Campeonato Brasileiro de Futebol
 
 # Equipe AGoldenDatabase
 
