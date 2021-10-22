@@ -1,3 +1,4 @@
+**Projeto Parcial entregue na data 01/10/2021 e movido para esta pasta na data 22/10/2021**
 # Dataset público sobre times e partidas do Campeonato Brasileiro de Futebol
 
 # Equipe AGoldenDatabase
@@ -14,4 +15,4 @@ Nossa base de dados, além de guardar informações sobre as partidas (como data
 
 ## Slides da Apresentação
 
-[Slides](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/slides/Apresenta%C3%A7%C3%A3o.pdf)
+[Slides](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/parcial/slides/Apresenta%C3%A7%C3%A3o.pdf)
