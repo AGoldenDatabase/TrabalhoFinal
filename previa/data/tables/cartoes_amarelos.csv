@@ -1,0 +1,92 @@
+,Time mandante,Time visitante,Time amarelo,Jogador,Primeiro/Segundo tempo,Minuto
+0,Ceara,Fortaleza,Ceara,Andrevaldo de Jesus Santos,1.0,29.0
+1,Ceara,Fortaleza,Ceara,Samuel Xavier Brito ,2.0,17.0
+2,Ceara,Fortaleza,Fortaleza,Carlos Emiliano Pereira,2.0,24.0
+3,Ceara,Fortaleza,Ceara,Wescley Gomes dos Santos,2.0,43.0
+4,Sao Paulo,Botafogo,Botafogo,Jonathan Silva Vieira,1.0,9.0
+5,Sao Paulo,Botafogo,Botafogo,Joao Paulo Mior,1.0,12.0
+6,Sao Paulo,Botafogo,Botafogo,Rodrigo Pimpao Vianna,1.0,22.0
+7,Sao Paulo,Botafogo,Botafogo,Mauro Joel Carli ,2.0,48.0
+8,Fluminense,Internacional,Internacional,Gustavo Nonato Santana,2.0,34.0
+12,Santos,Goias,Santos,Yeferson Julio Soteldo Martinez,2.0,23.0
+13,Santos,Goias,Santos,Jorge Marco de Oliveira Moraes,1.0,30.0
+14,Santos,Goias,Santos,Fernando Uribe Hincapie,2.0,43.0
+15,Santos,Goias,Goias,Kayke Moreno de Andrade Rodrigues,2.0,11.0
+16,Santos,Goias,Goias,Kevin Peterson dos Santos Silva,1.0,12.0
+17,Santos,Goias,Goias,Yago Fernando da Silva,1.0,12.0
+18,Santos,Goias,Goias,Johnath Marlone Azevedo da Silva,1.0,37.0
+19,Atletico,Avai,Avai,Ebert Willian Amancio,2.0,50.0
+20,Chapecoense,Internacional,Internacional,Emerson Raymundo Santos,1.0,46.0
+21,Chapecoense,Internacional,Chapecoense,Douglas Silva Bacelar,2.0,5.0
+22,Flamengo,Cruzeiro,Flamengo,Leonardo Campos Duarte da Silva,2.0,4.0
+23,Flamengo,Cruzeiro,Flamengo,Gabriel Barbosa Almeida,2.0,16.0
+24,Flamengo,Cruzeiro,Flamengo,Marcos Rogerio Ricci Lopes,1.0,24.0
+25,Flamengo,Cruzeiro,Flamengo,Diego Ribas da Cunha,2.0,48.0
+26,Flamengo,Cruzeiro,Cruzeiro,Murilo Cerqueira Paim,1.0,4.0
+27,Flamengo,Cruzeiro,Cruzeiro,Lucas Daniel Romero,2.0,6.0
+28,Flamengo,Cruzeiro,Cruzeiro,Edilson Mendes Guimaraes,2.0,16.0
+29,Flamengo,Cruzeiro,Cruzeiro,Frederico Chaves Guedes,2.0,33.0
+30,Flamengo,Cruzeiro,Cruzeiro,Thiago Neves Augusto,2.0,43.0
+31,Gremio,Santos,Santos,Alison Lopes Ferreira,2.0,10.0
+32,Gremio,Santos,Santos,Diego Cristiano Evaristo,2.0,23.0
+33,Gremio,Santos,Santos,Lucas Verissimo da Silva,2.0,39.0
+34,Gremio,Santos,Santos,Derlis Alberto Gonzalez Galeano,2.0,48.0
+35,Gremio,Santos,Gremio,Matheus Henrique de Souza,2.0,7.0
+36,Gremio,Santos,Gremio,Maicon Thiago Pereira de Souza,1.0,33.0
+37,Gremio,Santos,Gremio,Walter Kannemann,1.0,38.0
+38,Bahia,Flamengo,Bahia,Eric dos Santos Rodrigues,2.0,5.0
+39,Bahia,Flamengo,Flamengo,Marcio Rafael Ferreira de Souza,1.0,5.0
+40,Bahia,Corinthians,Corinthians,Mauro Boselli,2.0,5.0
+41,Bahia,Corinthians,Corinthians,Cassio Ramos,1.0,36.0
+42,Bahia,Corinthians,Corinthians,Carlos Augusto Zopolato Neves,2.0,41.0
+43,Bahia,Corinthians,Corinthians,Fagner Conserva Lemos,2.0,45.0
+44,Bahia,Corinthians,Bahia,Severino do Ramo Clementino da Silva,2.0,16.0
+45,Athletico Paranaense,Vasco da Gama,Vasco da Gama,Raul Lo Goncalves,2.0,11.0
+46,Athletico Paranaense,Vasco da Gama,Athletico Paranaense,Thiago Heleno Henrique Ferreira,2.0,40.0
+47,Palmeiras,Fortaleza,Palmeiras,Deyverson Brum Silva,1.0,45.0
+48,Palmeiras,Fortaleza,Fortaleza,Osvaldo Lourenco Filho,2.0,1.0
+49,Palmeiras,Fortaleza,Fortaleza,Carlos Emiliano Pereira,1.0,43.0
+50,Fluminense,Goiás,Fluminense,Marcilio Florencio Mota Filho,2.0,20.0
+51,Fluminense,Goiás,Fluminense,Luciano da Rocha Neves,2.0,40.0
+52,Fluminense,Goiás,Fluminense,Everaldo Silva do Nascimento,2.0,43.0
+53,Fluminense,Goiás,Fluminense,Matheus Ferraz Pereira,2.0,49.0
+54,Fluminense,Goiás,Goiás,Leonardo de Souza Sena,2.0,40.0
+55,Fluminense,Goiás,Goiás,Yago Fernando da Silva,1.0,45.0
+56,Chapecoense,Cruzeiro,Cruzeiro,Pedro Rocha Neves,2.0,26.0
+57,Chapecoense,Cruzeiro,Chapecoense,Rafael Pereira dos Santos,1.0,42.0
+58,Chapecoense,Cruzeiro,Chapecoense,Marcos Vinicius Santos Goncalves,2.0,49.0
+59,Atletico,Gremio,Atletico,Geuvanio Santos Silva,2.0,16.0
+60,Atletico,Gremio,Atletico,Luan Madson Gedeao de Paiva,2.0,19.0
+61,Atletico,Gremio,Atletico,Francisco Carlos Cersosimo,2.0,22.0
+62,Atletico,Gremio,Atletico,Nathan Allan de Souza,2.0,44.0
+63,Atletico,Gremio,Atletico,Juan Ramon Cazares Sevillano,1.0,50.0
+64,Sao Paulo,Corinthians,Corinthians,Gustavo Henrique da Silva Sousa,2.0,36.0
+65,Vasco da Gama,Fortaleza,Vasco da Gama,Oswaldo Jose Henriquez Bocanegra,2.0,27.0
+66,Vasco da Gama,Fortaleza,Vasco da Gama,Felipe Ramos Ignez Bastos,2.0,48.0
+67,Vasco da Gama,Fortaleza,Fortaleza,Osvaldo Lourenco Filho,2.0,11.0
+68,Vasco da Gama,Fortaleza,Fortaleza,Adalberto dos Santos Rodrigues,2.0,20.0
+69,Vasco da Gama,Fortaleza,Fortaleza,Wellington Pereira do Nascimento,2.0,27.0
+70,Vasco da Gama,Fortaleza,Fortaleza,Gabriel Dias de Oliveira,2.0,29.0
+71,Vasco da Gama,Fortaleza,Fortaleza,Rogerio Ceni,2.0,48.0
+72,Athletico Paranaense,Flamengo,Flamengo,Rene Rodrigues Martins,2.0,1.0
+73,Athletico Paranaense,Flamengo,Flamengo,Jorge Fernando Pinheiro de Jesus,2.0,3.0
+74,Athletico Paranaense,Flamengo,Flamengo,Matheus Soares Thuler,2.0,9.0
+75,Athletico Paranaense,Flamengo,Flamengo,Bruno Henrique Pinto,2.0,13.0
+76,Athletico Paranaense,Flamengo,Flamengo,Everton Augusto de Barros Ribeiro,1.0,31.0
+77,Athletico Paranaense,Flamengo,Flamengo,Victor Vinicius Coelho Santos,2.0,44.0
+78,Athletico Paranaense,Flamengo,Athletico Paranaense,Leonardo Cittadini,2.0,20.0
+79,Athletico Paranaense,Flamengo,Athletico Paranaense,Thiago Heleno Henrique Ferreira,2.0,30.0
+80,Avai,Botafogo,Botafogo,Gabriel Costa Franca,2.0,15.0
+81,Avai,Botafogo,Avai,Igor Fernandes da Silva Araujo,2.0,20.0
+82,Avai,Botafogo,Avai,Joao Paulo da Silva Alves,2.0,41.0
+83,Ceara,Avai,Ceara,Fabio Goncalves,1.0,28.0
+84,Ceara,Avai,Avai,Matheus Barbosa Teixeira,1.0,33.0
+85,Ceara,Avai,Avai,Joao Paulo da Silva Alves,2.0,49.0
+86,Ceara,Avai,Avai,Wesley Soares Xavier,2.0,48.0
+87,Internacional,Santos,Santos,Jorge Luis Sampaoli,2.0,13.0
+88,Internacional,Santos,Santos,Jean Mota Oliveira de Sousa,2.0,35.0
+89,Internacional,Santos,Santos,Fernando Uribe Hincapie,2.0,40.0
+90,Internacional,Santos,Santos,Mario Sergio Santos Costa,1.0,45.0
+91,Internacional,Santos,Internacional,Victor Leandro Cuesta,2.0,2.0
+92,Internacional,Santos,Internacional,Ricardo Colbachini,2.0,13.0
+93,Internacional,Santos,Internacional,Andres Nicolas Dalessandro,2.0,27.0

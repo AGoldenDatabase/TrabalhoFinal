@@ -1,0 +1,64 @@
+,Time mandante,Time Visitante,Time Marcador,Tipo,Jogador,Primeiro/Segundo Tempo,Minuto
+0,Ceara,Fortaleza,Ceara,NR,Thiago Galhardo do Nascimento Rocha,1,14
+1,Ceara,Fortaleza,Ceara,NR,Wanderson Felippe Cardoso dos Santos,1,17
+2,Ceara,Fortaleza,Fortaleza,PN,Paulo Roberto Valoura Junior,1,46
+3,Fluminense,Internacional,Fluminense,NR,Yony Alexander Gonzalez Copete,2,12
+4,Fluminense,Internacional,Fluminense,CT,Natanael Batista Pimenta,2,22
+5,Fluminense,Internacional,Internacional,NR,Edenilson Andrade dos Santos,2,46
+6,Sao Paulo,Botafogo,Sao Paulo,NR,Everton Cardoso da Silva ,1,40
+7,Sao Paulo,Botafogo,Sao Paulo,NR,Hudson Rodrigues dos Santos ,2,37
+8,Santos,Goias,Santos,NR,Carlos Andres Sanchez Arcosa,1,8
+9,Santos,Goias,Santos,NR,Lucas Verissimo da Silva,1,15
+10,Santos,Goias,Santos,NR,Gustavo Henrique Vernes,1,36
+11,Santos,Goias,Santos,NR,Eduardo Colcenti Antunes,2,6
+12,Santos,Goias,Santos,NR,Yeferson Julio Soteldo Martinez,2,23
+13,Santos,Goias,Santos,NR,Yeferson Julio Soteldo Martinez,2,35
+14,Santos,Goias,Goias,NR,Kayke Moreno de Andrade Rodrigues,2,45
+15,Atletico,Avai,Atletico,PN,Fabio Santos Romeu,1,46
+16,Atletico,Avai,Avai,NR,Feliciano Brizuela Baez,2,2
+17,Atletico,Avai,Atletico,NR,Ricardo de Oliveira,2,7
+18,Chapecoense,Internacional,Chapecoense,PN,Everaldo Stum,1,47
+19,Chapecoense,Internacional,Chapecoense,NR,Everaldo Stum,2,42
+20,Flamengo,Cruzeiro,Cruzeiro,NR,Pedro Rocha Neves,1,39
+21,Flamengo,Cruzeiro,Flamengo,NR,Bruno Henrique Pinto,1,40
+22,Flamengo,Cruzeiro,Flamengo,NR,Bruno Henrique Pinto,2,22
+23,Flamengo,Cruzeiro,Flamengo,NR,Gabriel Barbosa Almeida,2,44
+24,Gremio,Santos,Santos,NR,Eduardo Colcenti Antunes,1,5
+25,Gremio,Santos,Santos,NR,Felipe Jonatan Rocha Andrade,1,35
+26,Gremio,Santos,Gremio,NR,Everton Sousa Soares,2,48
+27,Bahia,Flamengo,Bahia,NR,Gilberto Oliveira Souza Junior,1,22
+28,Bahia,Flamengo,Bahia,NR,Gilberto Oliveira Souza Junior,1,30
+29,Bahia,Flamengo,Bahia,NR,Gilberto Oliveira Souza Junior,1,50
+30,Ceara,CSA,Ceara,NR,Ricardo Bueno da Silva,1,20
+31,Ceara,CSA,Ceara,NR,Leandro Carvalho da Silva,1,33
+32,Ceara,CSA,Ceara,NR,Joao Lucas Cardoso,2,36
+33,Ceara,CSA,Ceara,NR,Ricardo Bueno da Silva,2,43
+34,Bahia,Corinthians,Bahia,NR,Arthur Caike do Nascimento Cruz,1,48
+35,Bahia,Corinthians,Corinthians,NR,Pedro Victor Delmino da Silva,1,46
+36,Bahia,Corinthians,Bahia,NR,Artur Victor Guimaraes,2,30
+37,Bahia,Corinthians,Bahia,NR,Jose Rogerio de Oliveira Melo,2,38
+38,Bahia,Corinthians,Corinthians,NR,Clayson Henrique da Silva Vieira,2,49
+39,Athletico Paranaense,Vasco da Gama,Athletico Paranaense,NR,Bruno Guimaraes Rodriguez Moura,1,2
+40,Athletico Paranaense,Vasco da Gama,Athletico Paranaense,NR,Marco Gaston Ruben,1,44
+41,Athletico Paranaense,Vasco da Gama,Athletico Paranaense,CT,Werley Ananias da Silva,2,20
+42,Athletico Paranaense,Vasco da Gama,Athletico Paranaense,NR,Maycon Vinicius Ferreira da Cruz,2,41
+43,Athletico Paranaense,Vasco da Gama,Vasco da Gama,NR,Bruno Cesar Zanaki,2,43
+44,Palmeiras,Fortaleza,Palmeiras,NR,Jose Rafael Vivian,1,16
+45,Palmeiras,Fortaleza,Palmeiras,NR,Marcos Luis Rocha Aquino,2,13
+46,Palmeiras,Fortaleza,Palmeiras,NR,Jose Rafael Vivian,2,25
+47,Palmeiras,Fortaleza,Palmeiras,NR,Bruno Henrique Corsini,2,45
+48,Fluminense,Goias,Goias,FT,Rafael Vaz dos Santos,2,44
+49,Chapecoense,Cruzeiro,Cruzeiro,NR,Anderson Vital da Silva,1,3
+50,Chapecoense,Cruzeiro,Chapecoense,NR,Fernando Camilo Farias,2,49
+51,Atletico,Gremio,Gremio,NR,Rafael Galhardo de Souza,1,33
+52,Atletico,Gremio,Gremio,PN,Maicon Thiago Pereira de Souza,1,43
+53,Atletico,Gremio,Atletico,PN,Franco Matias Di Santo,1,49
+54,Atletico,Gremio,Gremio,NR,Eduardo Gabriel Aquino Cossa,2,2
+55,Atletico,Gremio,Gremio,NR,Alisson Euler de Freitas Castro,2,49
+56,Avai,Botafogo,Botafogo,NR,Alex Paulo Menezes Santana,1,18
+57,Avai,Botafogo,Botafogo,NR,Marcelo da Conceiçao Benevenuto Malaquias,2,5
+58,Sao Paulo,Corinthians,Sao Paulo,PN,Reinaldo Manoel da Silva,2,20
+59,Vasco da Gama,Fortaleza,Vasco da Gama,PN,Glaybson Yago Souza Lisboa,2,22
+60,Athletico Paranaense,Flamengo,Flamengo,NR,Bruno Henrique Pinto,1,45
+61,Athletico Paranaense,Flamengo,Flamengo,NR,Bruno Henrique Pinto,2,46
+62,Ceara,Avai,Ceara,NR,Bergson Gustavo Silveira da Silva,2,44

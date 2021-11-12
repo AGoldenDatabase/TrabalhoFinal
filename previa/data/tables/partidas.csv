@@ -1,0 +1,141 @@
+,Time mandante,Time Visitante,Numero rodada,Data
+0,Sao Paulo,Botafogo,1,2019-04-27
+1,Atletico,Avai,1,2019-04-27
+2,Chapecoense,Internacional,1,2019-04-27
+3,Flamengo,Cruzeiro,1,2019-04-27
+4,Gremio,Santos,1,2019-04-28
+5,Ceara,CSA,1,2019-04-28
+6,Bahia,Corinthians,1,2019-04-28
+7,Athletico Paranaense,Vasco da Gama,1,2019-04-28
+8,Palmeiras,Fortaleza,1,2019-04-28
+9,Fluminense,Goias,1,2019-04-28
+120,Ceara,Fortaleza,13,2019-08-03
+121,Fluminense,Internacional,13,2019-08-03
+122,Santos,Goias,13,2019-08-04
+123,Bahia,Flamengo,13,2019-08-04
+124,Avai,Botafogo,13,2019-08-04
+125,Atletico,Cruzeiro,13,2019-08-04
+126,Vasco,Csa,13,2019-08-04
+127,Corinthians,Palmeiras,13,2019-08-04
+128,Gremio,Chapecoense,13,2019-08-05
+129,Athletico Paranaense,Sao Paulo,13,2019-08-21
+240,Goias,Csa,25,2019-10-12
+241,Fluminense,Bahia,25,2019-10-12
+242,Palmeiras,Botafogo,25,2019-10-12
+243,Internacional,Santos,25,2019-10-13
+244,Ceara,Avai,25,2019-10-13
+245,Athletico Paranaense,Flamengo,25,2019-10-13
+246,Vasco da Gama,Fortaleza,25,2019-10-13
+247,Sao Paulo,Corinthians,25,2019-10-13
+248,Atletico,Gremio,25,2019-10-13
+249,Chapecoense,Cruzeiro,25,2019-10-13
+250,Csa ,Atletico,26,2019-10-16
+251,Gremio,Bahia,26,2019-10-16
+252,Fortaleza,Flamengo,26,2019-10-16
+253,Cruzeiro,Sao Paulo,26,2019-10-16
+254,Palmeiras,Chapecoense,26,2019-10-16
+255,Goias,Corinthians,26,2019-10-16
+256,Vasco da Gama,Botafogo,26,2019-10-16
+257,Avai,Internacional,26,2019-10-17
+258,Santos,Ceara,26,2019-10-17
+259,Fluminense,Athletico Paranaense,26,2019-10-17
+260,Fortaleza,Gremio,27,2019-10-19
+261,Corinthians,Cruzeiro,27,2019-10-19
+262,Internacional,Vasco da Gama,27,2019-10-20
+263,Sao Paulo,Avai,27,2019-10-20
+264,Atletico,Santos,27,2019-10-20
+265,Flamengo,Fluminense,27,2019-10-20
+266,Athletico Paranaense,Palmeiras,27,2019-10-20
+267,Chapecoense,Goias,27,2019-10-20
+268,Bahia,Ceara,27,2019-10-21
+269,Botafogo,Csa,27,2019-10-21
+270,Ceara,Vasco da Gama,28,2019-10-26
+271,Corinthians,Santos,28,2019-10-26
+272,Bahia,Internacional,28,2019-10-26
+273,Fluminense,Chapecoense,28,2019-10-26
+274,Cruzeiro,Fortaleza,28,2019-10-26
+275,Sao Paulo,Atletico,28,2019-10-27
+276,Athletico Paranaense,Goias,28,2019-10-27
+277,Gremio,Botafogo,28,2019-10-27
+278,Avai,Palmeiras,28,2019-10-27
+279,Flamengo,Csa,28,2019-10-27
+280,Palmeiras,Sao Paulo,29,2019-10-30
+281,Avai,Fortaleza,29,2019-10-30
+282,Atletico,Chapecoense,29,2019-10-30
+283,Ceara,Fluminense,29,2019-10-30
+284,Vasco da Gama,Gremio,29,2019-10-30
+285,Csa ,Corinthians,29,2019-10-30
+286,Santos,Bahia,29,2019-10-31
+287,Goias,Flamengo,29,2019-10-31
+288,Botafogo,Cruzeiro,29,2019-10-31
+289,Internacional,Athletico Paranaense,29,2019-10-31
+290,Fortaleza,Atletico,30,2019-11-02
+291,Palmeiras,Ceara,30,2019-11-02
+292,Fluminense,Vasco da Gama,30,2019-11-02
+293,Chapecoense,Sao Paulo,30,2019-11-02
+294,Flamengo,Corinthians,30,2019-11-03
+295,Athletico Paranaense,Csa,30,2019-11-03
+296,Gremio,Internacional,30,2019-11-03
+297,Cruzeiro,Bahia,30,2019-11-03
+298,Santos,Botafogo,30,2019-11-03
+299,Goias,Avai,30,2019-11-03
+300,Corinthians,Fortaleza,31,2019-11-06
+301,Atletico,Goias,31,2019-11-06
+302,Avai,Santos,31,2019-11-06
+303,Vasco da Gama,Palmeiras,31,2019-11-06
+304,Bahia,Chapecoense,31,2019-11-06
+305,Athletico Paranaense,Cruzeiro,31,2019-11-06
+306,Ceara,Internacional,31,2019-11-07
+307,Sao Paulo,Fluminense,31,2019-11-07
+308,Botafogo,Flamengo,31,2019-11-07
+309,Gremio,Csa,31,2019-11-07
+310,Goias,Santos,32,2019-11-09
+311,Palmeiras,Corinthians,32,2019-11-09
+312,Cruzeiro,Atletico,32,2019-11-10
+313,Sao Paulo,Athletico Paranaense,32,2019-11-10
+314,Internacional,Fluminense,32,2019-11-10
+315,Flamengo,Bahia,32,2019-11-10
+316,Fortaleza,Ceara,32,2019-11-10
+317,Chapecoense,Gremio,32,2019-11-10
+318,Csa ,Vasco da Gama,32,2019-11-10
+319,Botafogo,Avai,32,2019-11-10
+320,Santos,Sao Paulo,33,2019-11-16
+321,Fluminense,Atletico,33,2019-11-16
+322,Gremio,Flamengo,33,2019-11-17
+323,Bahia,Palmeiras,33,2019-11-17
+324,Corinthians,Internacional,33,2019-11-17
+325,Chapecoense,Ceara,33,2019-11-17
+326,Athletico Paranaense,Botafogo,33,2019-11-17
+327,Fortaleza,Csa,33,2019-11-17
+328,Vasco da Gama,Goias,33,2019-11-18
+329,Cruzeiro,Avai,33,2019-11-18
+330,Flamengo,Vasco da Gama,34,2019-11-13
+331,Santos,Cruzeiro,34,2019-11-23
+332,Goias,Bahia,34,2019-11-24
+333,Atletico,Athletico Paranaense,34,2019-11-24
+334,Palmeiras,Gremio,34,2019-11-24
+335,Botafogo,Corinthians,34,2019-11-24
+336,Avai,Chapecoense,34,2019-11-24
+337,Internacional,Fortaleza,34,2019-11-24
+338,Ceara,Sao Paulo,34,2019-11-24
+339,Csa ,Fluminense,34,2019-11-25
+340,Chapecoense,Botafogo,35,2019-11-27
+341,Internacional,Goias,35,2019-11-27
+342,Bahia,Atletico,35,2019-11-27
+343,Athletico Paranaense,Gremio,35,2019-11-27
+344,Corinthians,Avai,35,2019-11-27
+345,Flamengo,Ceara,35,2019-11-27
+346,Fluminense,Palmeiras,35,2019-11-28
+347,Fortaleza,Santos,35,2019-11-28
+348,Sao Paulo,Vasco da Gama,35,2019-11-28
+349,Cruzeiro,Csa,35,2019-11-28
+350,Botafogo,Internacional,36,2019-11-30
+351,Ceara,Athletico Paranaense,36,2019-11-30
+352,Goias,Fortaleza,36,2019-12-01
+353,Avai,Fluminense,36,2019-12-01
+354,Palmeiras,Flamengo,36,2019-12-01
+355,Atletico,Corinthians,36,2019-12-01
+356,Csa ,Bahia,36,2019-12-01
+357,Santos,Chapecoense,36,2019-12-01
+358,Gremio,Sao Paulo,36,2019-12-01
+359,Vasco da Gama,Cruzeiro,36,2019-12-02
