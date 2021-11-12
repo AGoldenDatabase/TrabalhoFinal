@@ -2,11 +2,23 @@
 
 ## `data`
 
-Arquivos de dados usados no projeto, quando isso ocorrer.
+[Cartoes Amarelos.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Cartoes%20amarelos.xlsx)
+
+[Cartoes Vermelhos.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Cartoes%20vermelhos.xlsx)
+
+[Gols.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Gols.xlsx)
+
+[Jogadores.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Jogadores.xlsx)
+
+[Partidas.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Partidas.xlsx)
+
+[Substituicoes.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Substituicoes.xlsx)
+
+[Treinadores.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Treinador.xlsx)
 
 ## `notebooks`
 
-Testes ou prototipos relacionados ao projeto que tenham sido executados no Jupyter.
+[GOLDB](notebooks/GOLDB.ipynb) -> Notebook com a conversão dos arquivos xlsx para o database
 
 ## `src`
 
