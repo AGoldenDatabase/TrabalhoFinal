@@ -4,7 +4,7 @@
 
 # Equipe `<AGoldenDatabase>` - `<GOLDB>`
 * `<Alan Freitas Ribeiro>` - `<193400>`
-* `<David Afonso Borges dos Santos>` - `<261030>`
+* `<David Afonso Borges dos Santos>` - `<261032>`
 * `<Gabriel Dourado Seabra>` - `<216213>`
 
 ## Resumo do Projeto
