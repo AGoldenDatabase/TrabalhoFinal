@@ -22,9 +22,7 @@
 
 ## `src`
 
-Projeto na linguagem escolhida, incluindo todos os arquivos de dados e bibliotecas necessários para a sua execução. Dentro dessa pasta sugerimos que você mantenha uma estrutura equivalente ao Eclipse, com uma subpasta `src` onde estarão os fontes e outra subpasta `bin` onde estarão os binários.
-
- Acrescente na raiz um arquivo `README.md` com as instruções básicas de instalação e execução.
+Atualmente estamos utilizando python para o tratamento e execução do database. Utilizamos o Modulo Sqlite3 para criar o database e exportar o arquivo .db, para utilizar o database, basta instala-lo, ou executa-lo a partir de um notebook online, como por exemplo, o Google Colab.
 
 ## `assets`
 
