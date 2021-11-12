@@ -1,33 +1,3 @@
-# Modelo de Apresentação da Entrega Prévia
-
-## `data`
-
-[Cartoes Amarelos.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Cartoes%20amarelos.xlsx)
-
-[Cartoes Vermelhos.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Cartoes%20vermelhos.xlsx)
-
-[Gols.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Gols.xlsx)
-
-[Jogadores.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Jogadores.xlsx)
-
-[Partidas.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Partidas.xlsx)
-
-[Substituicoes.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Substituicoes.xlsx)
-
-[Treinadores.xlsx](https://github.com/AGoldenDatabase/TrabalhoFinal/blob/main/previa/data/interim/Treinador.xlsx)
-
-## `notebooks`
-
-[GOLDB](notebooks/GOLDB.ipynb) -> Notebook com a conversão dos arquivos xlsx para o database
-
-## `src`
-
-Atualmente estamos utilizando python para o tratamento e execução do database. Utilizamos o Modulo Sqlite3 para criar o database e exportar o arquivo .db, para utilizar o database, basta instala-lo, ou executa-lo a partir de um notebook online, como por exemplo, o Google Colab.
-
-## `assets`
-
-Qualquer mídia usada no seu projeto: vídeo, imagens, animações, slides etc. Coloque os arquivos aqui (mesmo que você mantenha uma cópia no diretório do código).
-
 # Modelo para Apresentação da Entrega Prévia do Projeto
 
 # Projeto `<Dataset público sobre times e partidas do Campeonato Brasileiro de Futebol>`
