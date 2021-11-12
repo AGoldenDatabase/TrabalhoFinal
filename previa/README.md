@@ -18,14 +18,17 @@
 ## Modelo Conceitual Preliminar
 
 > Coloque aqui a imagem do modelo conceitual preliminar em ER ou UML, como o exemplo a seguir:
+> 
 > ![ER Taxi](assets/conceitual.png)
 
 ## Modelos Lógicos Preliminares
 
 > Coloque aqui os primeiros modelos lógicos dos bancos de dados relacionados aos modelos conceituais.
+> 
 > ![Modelo Lógico](assets/logico.png)
 
 > Modelo JSON:
+> 
 > ![Modelo JSON](assets/json.png)
 
 ## Bases de Dados
