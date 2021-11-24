@@ -13,7 +13,7 @@
 > Nossa base de dados, além de guardar informações sobre as partidas (como data, times visitante/madante, vencedor, gols do time visitante, gols do time mandante), também trará informações sobre cada integrante do elenco, como numero de substituições, gols marcados, cartões amarelos e vermelhos. Espera-se que, com estes dados, possamos ententar quais fatores mais corroboram para os resultados de um time no campeonato.
 
 ## Slides da Apresentação
-> Coloque aqui o link para o PDF da apresentação final
+> [Slides](assets/Aposta certa.pdf)
 
 ## Modelo Conceitual
 
@@ -139,9 +139,7 @@ Primeiramente carregamos as tabelas de substituicoes e de times
 > Se for notebook, ele estará dentro da pasta `notebook`. Se por alguma razão o código não for executável no Jupyter, coloque na pasta `src` (por exemplo, arquivos do Orange ou Cytoscape). Se as operações envolverem queries executadas atraves de uma interface de um SGBD não executável no Jupyter, como o Cypher, apresente na forma de markdown.
 
 ## Evolução do Projeto
-> Relatório de evolução, descrevendo as evoluções na modelagem do projeto, dificuldades enfrentadas, mudanças de rumo, melhorias e lições aprendidas. Referências aos diagramas, modelos e recortes de mudanças são bem-vindos.
-> Podem ser apresentados destaques na evolução dos modelos conceitual e lógico. O modelo inicial e intermediários (quando relevantes) e explicação de refinamentos, mudanças ou evolução do projeto que fundamentaram as decisões.
-> Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
+> Inicialmente tivemos muita dificuldade de obter bases de dados confiáveis e convenientes. Passamos por muitas dificuldades após parceber que as bases que havíamos sugerido nas entragas anteriores eram inviáveis de serem extraídas usando web scraping ou pdf scraping (com pdf de dados da CBF). Após muito tempo encontramos uma API com tudo que precisamos e um site com bases de dados de apostas que poderíamos usar. Como nosso modelo já estava pronto, foi razoavelmente simples adaptar as novas bases ao nosso projeto inicial. Tivemos algumas dificuldades menores ao longo do desenvolvimento também, tais como as descritas anteriormente para tratar o csv de Odds com o csv de partidas, em que tivemos que manualmente alterar os nomes para o formato padronizado e pesquisar as partidas por string ("mandante X visitante").
 
 ## Perguntas de Pesquisa/Análise Combinadas e Respectivas Análises
 
