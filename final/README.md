@@ -8,29 +8,27 @@
 * `Gabriel Dourado Seabra` - `216213`
 
 ## Resumo do Projeto
-> Ultimamente tem se tornado muito comum a análise de eventos esportivos orientada a dados, especialmente para realizar previsões e apostas de curto e longo prazo sobre os resultados de um campeonato. No entanto, muitos sites de estatística ainda carecem de informações que podem ser relevantes para o entendimento dos resultados do campeonato. Nesse sentido, buscamos compilar e formatar dados diversos sobre os times e partidas no Brasileirão em um banco de dados que permita traçar correlações entre as condições dos times e seus resultados.
+ Ultimamente tem se tornado muito comum a análise de eventos esportivos orientada a dados, especialmente para realizar previsões e apostas de curto e longo prazo sobre os resultados de um campeonato. No entanto, muitos sites de estatística ainda carecem de informações que podem ser relevantes para o entendimento dos resultados do campeonato. Nesse sentido, buscamos compilar e formatar dados diversos sobre os times e partidas no Brasileirão em um banco de dados que permita traçar correlações entre as condições dos times e seus resultados.
 
-> Nossa base de dados, além de guardar informações sobre as partidas (como data, times visitante/madante, vencedor, gols do time visitante, gols do time mandante), também trará informações sobre cada integrante do elenco, como numero de substituições, gols marcados, cartões amarelos e vermelhos. Espera-se que, com estes dados, possamos ententar quais fatores mais corroboram para os resultados de um time no campeonato.
+Nossa base de dados, além de guardar informações sobre as partidas (como data, times visitante/madante, vencedor, gols do time visitante, gols do time mandante), também trará informações sobre cada integrante do elenco, como numero de substituições, gols marcados, cartões amarelos e vermelhos. Integramos também, a nossa base de dados a aos Odds de pré-jogo de sites de apostas online. Espera-se que, com estes dados, possamos ententar quais fatores mais corroboram para os resultados de um time no campeonato.
 
 ## Slides da Apresentação
-> [Slides](assets/Aposta%20certa.pdf)
+[Slides](assets/Aposta%20certa.pdf)
 
 ## Modelo Conceitual
 
-> Coloque aqui a imagem do modelo conceitual final em ER ou UML, como o exemplo a seguir:
-> ![Conceitual](assets/conceitual_tabelas.png)
+![Conceitual](assets/conceitual_tabelas.png)
 
 ## Modelos Lógicos
 
-> Coloque aqui os modelos lógicos dos bancos de dados relacionados aos modelos conceituais. Para o modelo relacional, sugere-se o formato a seguir. Para outros modelos lógicos, sugere-se aqueles apresentados em sala.
 
-> Modelo Relacional
-> 
-> ![LogicoTabela](assets/LogicoFinal.png)
+Modelo Relacional
 
-> Modelo Hierarquico
-> 
-> ![Modelo Lógico Hierárquico](assets/modeloHierarquico.png)
+![LogicoTabela](assets/LogicoFinal.png)
+
+ Modelo Hierarquico
+ 
+![Modelo Lógico Hierárquico](assets/modeloHierarquico.png)
 
 ## Dataset Publicado
 > Elencar os arquivos/bases preliminares dos datasets serão publicados.
@@ -50,21 +48,14 @@ Subst | [Substituições](data/processed/subst.csv) | Tabela com as substituiç�
 Tecnicos | [Tecnicos](data/processed/tecnicos.csv) | Tabela com todos os tecnicos do campeonato e suas partidas disputadas
 Times | [Times](data/processed/times.csv) | Tabela com o id de cada time que disputou o campeonato
 
-> Os arquivos finais do dataset publicado devem ser colocados na pasta `data`, em subpasta `processed`. Outros arquivos serão colocados em subpastas conforme seu papel (externo, interim, raw). A diferença entre externo e raw é que o raw é em formato não adaptado para uso. A pasta `raw` é opcional, pois pode ser substituída pelo link para a base original da seção anterior.
-> Coloque arquivos que não estejam disponíveis online e sejam acessados pelo notebook. Relacionais (usualmente CSV), XML, JSON e CSV ou triplas para grafos.
-> Este é o conjunto mínimo de informações que deve constar na disponibilização do Dataset, mas a equipe pode enriquecer esta seção.
-
 ## Bases de Dados
-> Elencar as bases de dados fonte utilizadas no projeto.
-
 título da base | link | breve descrição
 ----- | ----- | -----
 `API-Football` | [link para a página da base](https://api-football.com) | API com diversas informações sobre os times e partidas disputadas do campeonato brasileiro 2019
-`Football Data Betting Odds` | [link para a página da base](https://www.football-data.co.uk/brazil.php) | `Resultados das probabilidades de apostas de encerramento (casa-empate-visitante) da Pinnacle Sports, bem como os odds máximos e média dentre uma série de casas de apostas. Dados do campeonato brasileiro de 2012 a 2021`
+`Football Data Betting Odds` | [link para a página da base](https://www.football-data.co.uk/brazil.php) | Resultados das probabilidades de apostas de encerramento (casa-empate-visitante) da Pinnacle Sports, bem como os odds máximos e média dentre uma série de casas de apostas. Dados do campeonato brasileiro de 2012 a 2021
 
 ## Detalhamento do Projeto
-> Apresente aqui detalhes do processo de construção do dataset e análise. Nesta seção ou na seção de Perguntas podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
-> Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.
+
 
 <p> Para extrair os dados relevantes da API de partidas de futebol, usamos o módulo requests do Python para fazer as chamadas à API. O código usado foi compartilhado em um notebook do Google Colab e os objetos JSON extraídos foram salvos automaticamente no Google Drive. Inicialmente, tivemos que obter uma lista de todas as partidas do Campeonato Brasileiro de 2019. O objeto JSON retornado pela requisição foi salvo em um arquivo "fixtures.json", que contém uma lista de todas as partidas (fixtures) e um identificador único para cada partida. </p>
 <p>
@@ -123,52 +114,33 @@ Com o csv de Odds pudemos juntas ambos os dados na construção da tabela "parti
 </p>
 
 
-> Se usar Orange para alguma análise, você pode apresentar uma captura do workflow, como o exemplo a seguir e descrevê-lo:
-![Workflow no Orange](assets/orange.png)
-Primeiramente carregamos as tabelas de substituicoes e de times 
-
-> Coloque um link para o arquivo do notebook, programas ou workflows que executam as operações que você apresentar.
-
-> Aqui devem ser apresentadas as operações de construção do dataset:
-* extração de dados de fontes não estruturadas como, por exemplo, páginas Web
-* agregação de dados fragmentados obtidos a partir de API
-* integração de dados de múltiplas fontes
-* tratamento de dados
-* transformação de dados para facilitar análise e pesquisa
-
-> Se for notebook, ele estará dentro da pasta `notebook`. Se por alguma razão o código não for executável no Jupyter, coloque na pasta `src` (por exemplo, arquivos do Orange ou Cytoscape). Se as operações envolverem queries executadas atraves de uma interface de um SGBD não executável no Jupyter, como o Cypher, apresente na forma de markdown.
 
 ## Evolução do Projeto
-> Inicialmente tivemos muita dificuldade de obter bases de dados confiáveis e convenientes. Passamos por muitas dificuldades após parceber que as bases que havíamos sugerido nas entragas anteriores eram inviáveis de serem extraídas usando web scraping ou pdf scraping (com pdf de dados da CBF). Após muito tempo encontramos uma API com tudo que precisamos e um site com bases de dados de apostas que poderíamos usar. Como nosso modelo já estava pronto, foi razoavelmente simples adaptar as novas bases ao nosso projeto inicial. Tivemos algumas dificuldades menores ao longo do desenvolvimento também, tais como as descritas anteriormente para tratar o csv de Odds com o csv de partidas, em que tivemos que manualmente alterar os nomes para o formato padronizado e pesquisar as partidas por string ("mandante X visitante").
+Inicialmente tivemos muita dificuldade de obter bases de dados confiáveis e convenientes. Passamos por muitas dificuldades após perceber que as bases sugeridas nas entregas anteriores eram inviáveis de serem extraídas usando web scraping ou pdf scraping (com pdf de dados da CBF). Após muito tempo encontramos uma API com tudo que precisamos e um site com bases de dados de apostas que poderíamos usar. Como nosso modelo já estava pronto, foi razoavelmente simples adaptar as novas bases ao nosso projeto inicial. Tivemos algumas dificuldades menores ao longo do desenvolvimento também, tais como as descritas anteriormente para tratar o csv de Odds com o csv de partidas, em que tivemos que manualmente alterar os nomes para o formato padronizado e pesquisar as partidas por string ("mandante X visitante").
 
 ## Perguntas de Pesquisa/Análise Combinadas e Respectivas Análises
 
-> Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de detalhamento do projeto (o que for mais pertinente).
-
-> Liste aqui as perguntas de pesquisa/análise e respectivas análises. Nem todas as perguntas precisam de queries que as implementam. É possível haver perguntas em que a solução é apenas descrita para demonstrar o potencial da base. Abaixo são ilustradas três perguntas, mas pode ser um número maior a critério da equipe.
->
 ### Perguntas/Análise com Resposta Implementada
 
 #### Pergunta/Análise 1
-> * Pergunta 1
-> 
->   Qual a relação entre substituições e o desempenho de um time no campeonato
->   * Foi decidido que para essa análise utilizariamos o Orange. Primeiramente, então carregamos as tabelas de substituições e de times na ferramenta e realizamos o join, depois selecionamos apenas as colunas com nome e tempo do time. A partir daí contamos as ocorrências de substituições e agrupamos por time e calculamos a média do tempo de substituição. Depois visualizamos a média geral de tempo de substituição e de número de substituição. Em um primeiro momento selecionamos apenas os times com tempo de substituição acima da média e foi possível verificar a presença de times bem posicionados no campeonato, como o campeão, por exempo. Já em um segundo momento, diante dos times com número de substituições acima da média foi possível perceber a presença de um grande número de times com desempenho fraco, dentre eles vários que seriam rebaixados para a segunda divisão no próximo ano. A conclusão, portanto é que times com bom desempenho geralmente precisam realizar poucas substituições.
+* Qual a relação entre substituições e o desempenho de um time no campeonato?
+  
+  * Foi decidido que para essa análise utilizariamos o Orange. Primeiramente, então carregamos as tabelas de substituições e de times na ferramenta e realizamos o join, depois selecionamos apenas as colunas com nome e tempo do time. A partir daí contamos as ocorrências de substituições e agrupamos por time e calculamos a média do tempo de substituição. Depois visualizamos a média geral de tempo de substituição e de número de substituição. Em um primeiro momento selecionamos apenas os times com tempo de substituição acima da média e foi possível verificar a presença de times bem posicionados no campeonato, como o campeão, por exempo. Já em um segundo momento, diante dos times com número de substituições acima da média foi possível perceber a presença de um grande número de times com desempenho fraco, dentre eles vários que seriam rebaixados para a segunda divisão no próximo ano. A conclusão, portanto é que times com bom desempenho geralmente precisam realizar poucas substituições.
+![Workflow no Orange](assets/orange.png)
 
 #### Pergunta/Análise 2
-> * Pergunta 2
->
->   Defesas mais sólidas tem impacto nas vitórias fora de casa?
->   * Utilizamos o sqlite3 para fazer essa analise, onde, por meio das tabelas de Partidas e Estatisticas de Gols tentamos obter uma resposta. Para isso, criamos duas views, uma com as estatisticas de partidas sem sofrer gols por cada time e com jogos sem marcar gols, além dessa, criamos uma outra view, que pegava os resultados com apenas vitórias fora de casa. Daí, ordenamos estas duas views por ordem decrescente, a primeira, por partidas sem sofrer gols e a segunda, pela quantidade de vitorias fora de casa. Analisando o resultado, temos que existe um impacto em ter uma defesa mais sólida nas vitorias fora de casa, onde os times que menos tomaram gols no campeonato foram em sua maioria, os que mais figuraram dentre as primeiras posições de vitorias fora de casa.
+* Pergunta 2: Defesas mais sólidas tem impacto nas vitórias fora de casa?
+  * Utilizamos o sqlite3 para fazer essa analise, onde, por meio das tabelas de Partidas e Estatisticas de Gols tentamos obter uma resposta. Para isso, criamos duas views, uma com as estatisticas de partidas sem sofrer gols por cada time e com jogos sem marcar gols, além dessa, criamos uma outra view, que pegava os resultados com apenas vitórias fora de casa. Daí, ordenamos estas duas views por ordem decrescente, a primeira, por partidas sem sofrer gols e a segunda, pela quantidade de vitorias fora de casa. Analisando o resultado, temos que existe um impacto em ter uma defesa mais sólida nas vitorias fora de casa, onde os times que menos tomaram gols no campeonato foram em sua maioria, os que mais figuraram dentre as primeiras posições de vitorias fora de casa.
 
-#### Pergunta/Análise 3
-> * Se fizermos apostas sempre de acordo com os Odds médios, a chance de acerto?
+#### Pergunta/Análise 3: 
+* Se fizermos apostas sempre de acordo com os Odds médios, a chance de acerto?
     
-> Etapas realizadas
-Da tabela de partidas, selecionar todas as colunas com AvgA > AvgH e Res = H
-Da tabela de partidas, selecionar todas as colunas com AvgH > AvgA e Res = A
-Dar join em ambas as seleções
-Contar quantas linhas
+  Etapas realizadas
+  * Da tabela de partidas, selecionar todas as colunas com AvgA > AvgH e Res = H
+  * Da tabela de partidas, selecionar todas as colunas com AvgH > AvgA e Res = A
+  * Dar join em ambas as seleções
+  * Contar quantas linhas
+* Resultado: concluímos que com essa estratégia, há cerca de 53% de acerto usando esse método, o que é uma acurácia melhor que os 33% da chance aleatória.
 
 ### Perguntas/Análise Propostas mas Não Implementadas
 
