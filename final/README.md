@@ -135,12 +135,31 @@ Com os três arquivos JSON em mãos (fixtures.json, fixtures-events.json e fixtu
 - Gols: gols.csv
 - Substutuições: subst.csv
 
-<p>Exemplo de trecho de código que extrai de fixtures-lineups.json dados para construir a tabela de todos os técnicos:</p>
+<p>Exemplo de trecho de código que extrai de fixtures-events.json dados para construir a tabela de todos os cartões amarelos:</p>
 
 ~~~python
-TODO
+for jogo in data.keys():
+  partida = data[str(jogo)]
+  for evento in partida: 
+    if evento["type"] == 'Card' and evento["detail"] == "Yellow Card":
+      cartaoa.append(
+        [id_evento,jogo,evento["team"]["id"],evento["player"]["id"],evento["time"]["elapsed"],evento["time"]["extra"]]
+      )
+      id_evento += 1
 ~~~
-<p>Para extrair os dados relevantes da tabela de Odds</p>
+<p>Para extrair os dados relevantes da tabela de Odds importamos o arquivo csv providenciado no "football-data.co.uk" usando Pandas. Dele pudemos extrair os odds máximos assim como a média de odds calculada por uma série de diferentes casas de apostas. Para isso, tivemos que primeiramente encontrar, partindo apenas dos nomes dos times mandante e visitante, o ID da partida conforme as tabelas construídas anteriormente. Fizemos isso através da construção de um dicionário de partidas em que cada chave relaciona um conjunto de dois times (uma string "Mantante X Visitante") ao seu respectivo ID:
+</p>
+
+~~~python
+for index, row in odds.iterrows():
+    times_key = str(row['Home']).upper() + " X "+ str(row['Away']).upper()
+    odds.at[index, 'PartidaID'] = partidas[times_key]
+~~~
+
+<p>
+Com o csv de Odds pudemos juntas ambos os dados na construção da tabela "partidas.csv", que contém o resumo da partida e os odds de pré-jogo. Vale frisar também que o csv bruto importado do site apresentava nomes dos times escritos de forma diferente, tivemos que tratar manualmente padronizando o formato dos nomes dos times.
+</p>
+
 
 > Se usar Orange para alguma análise, você pode apresentar uma captura do workflow, como o exemplo a seguir e descrevê-lo:
 ![Workflow no Orange](images/orange-zombie-meals-prediction.png)
