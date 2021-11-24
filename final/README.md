@@ -1,49 +1,4 @@
-# Apresentação da Final
-
-# Estrutura de Arquivos e Pastas
-
-A estrutura aqui apresentada é uma simplificação daquela proposta pelo [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/). Também será aceito que o projeto adote a estrutura completa do Cookiecutter Data Science e isso será considerado um diferencial. A estrutura geral é a seguinte e será detalhada a seguir:
-
-~~~
-├── README.md  <- arquivo apresentando a proposta
-│
-├── data
-│   ├── external       <- dados de terceiros em formato usado para entrada na transformação
-│   ├── interim        <- dados intermediários, e.g., resultado de transformação
-│   ├── processed      <- dados finais usados para a publicação
-│   └── raw            <- dados originais sem modificações
-│
-├── notebooks          <- Jupyter notebooks ou equivalentes
-│
-├── slides             <- arquivo de slides em formato PDF
-│
-├── src                <- fonte em linguagem de programação ou sistema (e.g., Orange, Cytoscape)
-│   └── README.md      <- instruções básicas de instalação/execução
-│
-└── assets             <- mídias usadas no projeto
-~~~
-
-Na raiz deve haver um arquivo de nome `README.md` contendo a apresentação do projeto, como detalhado na seção seguinte.
-
-## `data`
-
-Arquivos de dados usados no projeto, quando isso ocorrer.
-
-## `notebooks`
-
-Testes ou prototipos relacionados ao projeto que tenham sido executados no Jupyter.
-
-## `src`
-
-Projeto na linguagem escolhida caso não seja usado o notebook, incluindo todos os arquivos de dados e bibliotecas necessários para a sua execução. Só coloque código Pyhton ou Java aqui se ele não rodar dentro do notebook.
-
- Acrescente na raiz um arquivo `README.md` com as instruções básicas de instalação e execução.
-
-## `assets`
-
-Qualquer mídia usada no seu projeto: vídeo, imagens, animações, slides etc. Coloque os arquivos aqui (mesmo que você mantenha uma cópia no diretório do código).
-
-# Modelo para Apresentação da Entrega Prévia do Projeto
+# Modelo para Apresentação da Entrega Final do Projeto
 
 # Projeto `Aposta Certa`
 
@@ -63,24 +18,18 @@ Qualquer mídia usada no seu projeto: vídeo, imagens, animações, slides etc. 
 ## Modelo Conceitual
 
 > Coloque aqui a imagem do modelo conceitual final em ER ou UML, como o exemplo a seguir:
-> ![ER Taxi](images/er-taxi.png)
+> ![Conceitual](assets/conceitual_tabelas.png)
 
 ## Modelos Lógicos
 
 > Coloque aqui os modelos lógicos dos bancos de dados relacionados aos modelos conceituais. Para o modelo relacional, sugere-se o formato a seguir. Para outros modelos lógicos, sugere-se aqueles apresentados em sala.
 
-> Exemplo de modelo lógico relacional
-~~~
-PESSOA(_Código_, Nome, Telefone)
-ARMÁRIO(_Código_, Tamanho, Ocupante)
-  Ocupante chave estrangeira -> PESSOA(Código)
-~~~
-> Coloque a imagem do PNG do seu modelo lógico como ilustrado abaixo (a imagem estará na pasta `image`):
->
+> Modelo Relacional
+> 
+> ![LogicoTabela](assets/LogicoFinal.png)
 
-> Para modelos hierárquicos (XML e JSON), utilize um formato
-> conforme o abaixo:
-
+> Modelo Hierarquico
+> 
 > ![Modelo Lógico Hierárquico](images/modelo-logico-hierarquico.png)
 
 ## Dataset Publicado
