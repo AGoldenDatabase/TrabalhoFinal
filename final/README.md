@@ -13,7 +13,7 @@
 > Nossa base de dados, além de guardar informações sobre as partidas (como data, times visitante/madante, vencedor, gols do time visitante, gols do time mandante), também trará informações sobre cada integrante do elenco, como numero de substituições, gols marcados, cartões amarelos e vermelhos. Espera-se que, com estes dados, possamos ententar quais fatores mais corroboram para os resultados de um time no campeonato.
 
 ## Slides da Apresentação
-> [Slides](assets/Aposta certa.pdf)
+> [Slides](assets/Aposta%20certa.pdf)
 
 ## Modelo Conceitual
 
