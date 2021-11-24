@@ -1,0 +1,21 @@
+id,nome,jogosSemTomarGol,jogosSemMarcarGol,maiorGolsContraFora,maiorGolsContraCasa,maiorGolsAfavorFora,maiorGolsAfavorCasa,mediaGolsContraFora,mediaGolsAfavorFora,mediaGolsContraCasa,mediaGolsAfavorCasa
+127,Flamengo,14,4,4,4,4,6,1.0,0.9,1.6,2.9
+128,Santos,17,10,4,3,3,6,0.9,0.8,0.8,2.3
+121,Palmeiras,15,4,3,3,2,6,1.0,0.7,1.1,2.1
+130,Gremio,14,8,3,5,4,6,1.1,0.9,1.4,2.0
+134,Atletico Paranaense,15,7,3,2,4,4,1.1,0.6,1.3,1.4
+126,Sao Paulo,15,14,3,2,3,4,0.9,0.6,0.8,1.2
+119,Internacional,12,11,3,2,3,3,1.3,0.8,0.8,1.5
+131,Corinthians,17,10,4,2,3,3,1.1,0.7,0.9,1.3
+151,Goias,10,9,6,3,2,4,2.2,1.2,0.8,1.6
+154,Fortaleza EC,8,10,4,3,3,3,1.7,0.9,1.3,1.4
+133,Vasco DA Gama,10,10,4,4,4,2,1.2,1.2,1.0,1.1
+118,Bahia,14,9,4,3,3,3,1.3,0.9,1.1,1.3
+124,Fluminense,11,13,4,2,5,4,1.6,0.8,1.1,0.9
+1062,Atletico-MG,7,11,3,4,2,4,1.4,1.2,0.9,1.5
+120,Botafogo,10,19,4,2,2,3,1.5,0.9,0.6,1.0
+129,Ceara,8,16,4,3,2,4,1.4,0.7,0.7,1.2
+135,Cruzeiro,13,16,4,4,2,2,1.5,0.9,0.7,0.7
+150,CSA,10,20,6,4,2,3,1.8,1.3,0.4,0.9
+132,Chapecoense-sc,8,15,4,3,3,3,1.6,1.2,0.8,0.8
+145,Avai,9,21,6,3,1,2,2.0,1.3,0.4,0.5
