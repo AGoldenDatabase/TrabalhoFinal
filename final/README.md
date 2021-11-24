@@ -53,7 +53,9 @@ Qualquer mídia usada no seu projeto: vídeo, imagens, animações, slides etc. 
 * `Gabriel Dourado Seabra` - `216213`
 
 ## Resumo do Projeto
-> Texto resumindo o projeto.
+> Ultimamente tem se tornado muito comum a análise de eventos esportivos orientada a dados, especialmente para realizar previsões e apostas de curto e longo prazo sobre os resultados de um campeonato. No entanto, muitos sites de estatística ainda carecem de informações que podem ser relevantes para o entendimento dos resultados do campeonato. Nesse sentido, buscamos compilar e formatar dados diversos sobre os times e partidas no Brasileirão em um banco de dados que permita traçar correlações entre as condições dos times e seus resultados.
+
+> Nossa base de dados, além de guardar informações sobre as partidas (como data, times visitante/madante, vencedor, gols do time visitante, gols do time mandante), também trará informações sobre cada integrante do elenco, como numero de substituições, gols marcados, cartões amarelos e vermelhos. Espera-se que, com estes dados, possamos ententar quais fatores mais corroboram para os resultados de um time no campeonato.
 
 ## Slides da Apresentação
 > Coloque aqui o link para o PDF da apresentação final
@@ -86,7 +88,18 @@ ARMÁRIO(_Código_, Tamanho, Ocupante)
 
 título do arquivo/base | link | breve descrição
 ----- | ----- | -----
-`<título do arquivo/base>` | `<link para arquivo/base>` | `<breve descrição do arquivo/base>`
+Cartaoa | [Cartões Amarelos](data/processed/cartaoa.csv) | Tabela contendo os cartões amarelos das 380 partidas
+Cartaov | [Cartões Vermelhos](data/processed/cartaov.csv) | Tabela contendo os cartões vermelhos das 380 partidas
+Desempenho | [Desempenho](data/processed/desempenho.csv) | Tabela contendo o desempenho dos 20 times do campeonato
+Formacoes | [Formacoes](data/processed/formacoes.csv) | Tabela contendo as formações usadas pelos times durante o campeonato
+Gol | [Gol](data/processed/gol.csv) | Tabela contendo todos os gols marcados durante as 380 partidas do campeonato
+GolStats | [Estatisticas de Gol](data/processed/golStats.csv) | Tabela contendo estatisticas sobre os gols para os 20 times
+Jogadores | [Jogadores](data/processed/jogadores.csv) | Tabela contendo as partidas jogadas por todos os jogadores do campeonato
+Partidas | [Partidas](data/processed/partidas.csv) | Tabela com o resumo e as odds de cada partida
+Rounds | [Rounds](data/processed/rounds.json) | JSON no formato especificado pelo respectivo modelo
+Subst | [Substituições](data/processed/subst.csv) | Tabela com as substituições feitas em todas as partidas
+Tecnicos | [Tecnicos](data/processed/tecnicos.csv) | Tabela com todos os tecnicos do campeonato e suas partidas disputadas
+Times | [Times](data/processed/times.csv) | Tabela com o id de cada time que disputou o campeonato
 
 > Os arquivos finais do dataset publicado devem ser colocados na pasta `data`, em subpasta `processed`. Outros arquivos serão colocados em subpastas conforme seu papel (externo, interim, raw). A diferença entre externo e raw é que o raw é em formato não adaptado para uso. A pasta `raw` é opcional, pois pode ser substituída pelo link para a base original da seção anterior.
 > Coloque arquivos que não estejam disponíveis online e sejam acessados pelo notebook. Relacionais (usualmente CSV), XML, JSON e CSV ou triplas para grafos.
@@ -202,10 +215,13 @@ Primeiramente carregamos as tabelas de substituicoes e de times
 >   * Utilizamos o sqlite3 para fazer essa analise, onde, por meio das tabelas de Partidas e Estatisticas de Gols tentamos obter uma resposta. Para isso, criamos duas views, uma com as estatisticas de partidas sem sofrer gols por cada time e com jogos sem marcar gols, além dessa, criamos uma outra view, que pegava os resultados com apenas vitórias fora de casa. Daí, ordenamos estas duas views por ordem decrescente, a primeira, por partidas sem sofrer gols e a segunda, pela quantidade de vitorias fora de casa. Analisando o resultado, temos que existe um impacto em ter uma defesa mais sólida nas vitorias fora de casa, onde os times que menos tomaram gols no campeonato foram em sua maioria, os que mais figuraram dentre as primeiras posições de vitorias fora de casa.
 
 #### Pergunta/Análise 3
-> * Pergunta 3
->   
->   * Explicação sucinta da análise que será feita e conjunto de queries que
->     responde à pergunta.
+> * Se fizermos apostas sempre de acordo com os Odds médios, a chance de acerto?
+    
+> Etapas realizadas
+Da tabela de partidas, selecionar todas as colunas com AvgA > AvgH e Res = H
+Da tabela de partidas, selecionar todas as colunas com AvgH > AvgA e Res = A
+Dar join em ambas as seleções
+Contar quantas linhas
 
 ### Perguntas/Análise Propostas mas Não Implementadas
 
@@ -225,4 +241,5 @@ Primeiramente carregamos as tabelas de substituicoes e de times
 >   * Podemos agrupar os registros da tabela de gols por um tempo minimo, e ver quais times marcam mais dentro deste tempo. Daí, basta verificarmos na tabela de partidas se esses times ganharam o jogo. Esta é uma analise muito util, pois poderemos ter uma ideia se vale a pena apostar em um time que costuma marcar mais cedo em sua partida que o time adversario em questão.
 
 > Links das queries:
-> 
+> [Pergunta 2](notebooks/analiseAtaqueDefesa.ipynb)
+> [Pergunta 3](notebooks/analisePerguntaOdds.ipynb)
