@@ -210,19 +210,19 @@ Primeiramente carregamos as tabelas de substituicoes e de times
 ### Perguntas/Análise Propostas mas Não Implementadas
 
 #### Pergunta/Análise 1
-> * Pergunta 1
+> * Jogadores que marcam muitos gols são escalados em mais partidas?
 >   
->   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
+>   * Podemos agrupar os registros da tabela de gols pelo nome dos jogadores e contar suas ocorrencias, a partir daí, podemos contar a media de gols de cada jogador e comparar os resultados. Esta analise tem relevancia para definir as apostas antes do inicio da partida, de modo que poderemos analisar e tentar prever as escalações de alguns jogadores e dar um palpite no numero de gols que a partida poderá ter.
 
 #### Pergunta/Análise 2
-> * Pergunta 2
+> * Jogadores que receberam cartões em partidas são frequentemente substituidos?
 >   
->   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
+>   * Podemos realizar essa analise, selecionando uma view da tabela de cartões amarelos com o time mandante, time visitante e nome do jogador. Após isso, podemos selecionar na tabela de substituições os casos em que temos as partidas com o mesmo time mandante, time visitante e nome de jogadores que façam parte da seleção anterior. Daí, contamos o numero de registros e fazemos a mesma operação, só que agora para os jogadores que não levaram cartão. Esta analise pode ser util, pois existem apostas sobre o jogador que vai dar assistencia ou marcar um gol, com isso, podemos analisar se vale a pena ou não apostar em jogadores que costumam levar um maior numero de cartões para este tipo de aposta.
 
 #### Pergunta/Análise 3
-> * Pergunta 3
+> * Marcar gols no inicio da partida geralmente resultam em vitoria?
 >   
->   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
+>   * Podemos agrupar os registros da tabela de gols por um tempo minimo, e ver quais times marcam mais dentro deste tempo. Daí, basta verificarmos na tabela de partidas se esses times ganharam o jogo. Esta é uma analise muito util, pois poderemos ter uma ideia se vale a pena apostar em um time que costuma marcar mais cedo em sua partida que o time adversario em questão.
 
 > Links das queries:
 > 
