@@ -30,7 +30,7 @@
 
 > Modelo Hierarquico
 > 
-> ![Modelo Lógico Hierárquico](images/modelo-logico-hierarquico.png)
+> ![Modelo Lógico Hierárquico](assets/modeloHierarquico.png)
 
 ## Dataset Publicado
 > Elencar os arquivos/bases preliminares dos datasets serão publicados.
@@ -59,7 +59,7 @@ Times | [Times](data/processed/times.csv) | Tabela com o id de cada time que dis
 
 título da base | link | breve descrição
 ----- | ----- | -----
-`API-Football` | [link para a página da base](https://api-football.com) | `Resultados das probabilidades de apostas de encerramento (casa-empate-visitante) da Pinnacle Sports, bem como os odds máximos e média dentre uma série de casas de apostas. Dados do campeonato brasileiro de 2012 a 2021`
+`API-Football` | [link para a página da base](https://api-football.com) | API com diversas informações sobre os times e partidas disputadas do campeonato brasileiro 2019
 `Football Data Betting Odds` | [link para a página da base](https://www.football-data.co.uk/brazil.php) | `Resultados das probabilidades de apostas de encerramento (casa-empate-visitante) da Pinnacle Sports, bem como os odds máximos e média dentre uma série de casas de apostas. Dados do campeonato brasileiro de 2012 a 2021`
 
 ## Detalhamento do Projeto
