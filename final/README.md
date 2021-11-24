@@ -1,4 +1,4 @@
-# Modelo de Apresentação da Final
+# Apresentação da Final
 
 # Estrutura de Arquivos e Pastas
 
@@ -45,12 +45,12 @@ Qualquer mídia usada no seu projeto: vídeo, imagens, animações, slides etc. 
 
 # Modelo para Apresentação da Entrega Prévia do Projeto
 
-# Projeto `<Título do Projeto>`
+# Projeto `Aposta Certa`
 
-# Equipe `<nome da equipe>` - `<sigla da equipe>`
-* `<nome completo>` - `<RA>`
-* `<nome completo>` - `<RA>`
-* `<nome completo>` - `<RA>`
+# Equipe `AGoldenDatabase` - `GOLDB`
+* `Alan Freitas Ribeiro` - `193400`
+* `David Afonso Borges dos Santos` - `261032`
+* `Gabriel Dourado Seabra` - `216213`
 
 ## Resumo do Projeto
 > Texto resumindo o projeto.
@@ -73,22 +73,8 @@ PESSOA(_Código_, Nome, Telefone)
 ARMÁRIO(_Código_, Tamanho, Ocupante)
   Ocupante chave estrangeira -> PESSOA(Código)
 ~~~
-
-> Para o modelo de grafos de propriedades, utilize este
-> [modelo de base](https://docs.google.com/presentation/d/10RN7bDKUka_Ro2_41WyEE76Wxm4AioiJOrsh6BRY3Kk/edit?usp=sharing) para construir o seu.
 > Coloque a imagem do PNG do seu modelo lógico como ilustrado abaixo (a imagem estará na pasta `image`):
 >
-> ![Modelo Lógico de Grafos](images/modelo-logico-grafos.png)
-
-> Para o modelo de grafos de conhecimento, utilize a abordagem
-> (recurso, propriedade, valor) para apresentar seu grafo exemplo.
-> Coloque a imagem do PNG do seu modelo lógico como ilustrado abaixo (a imagem estará na pasta `image).
->
-> Você pode usar um grafo ilustrando as classes, como este:
-> ![Modelo Lógico de Grafos de Conhecimento](images/grafo-conhecimento-classes.png)
->
-> Além de outro com exemplo de instâncias, como este:
-> ![Modelo Lógico de Grafos](images/grafo-conhecimento-exemplo.png)
 
 > Para modelos hierárquicos (XML e JSON), utilize um formato
 > conforme o abaixo:
@@ -111,18 +97,50 @@ título do arquivo/base | link | breve descrição
 
 título da base | link | breve descrição
 ----- | ----- | -----
-`<título da base>` | `<link para a página da base>` | `<breve descrição da base>`
+`API-Football` | [link para a página da base](https://api-football.com) | `Resultados das probabilidades de apostas de encerramento (casa-empate-visitante) da Pinnacle Sports, bem como os odds máximos e média dentre uma série de casas de apostas. Dados do campeonato brasileiro de 2012 a 2021`
+`Football Data Betting Odds` | [link para a página da base](https://www.football-data.co.uk/brazil.php) | `Resultados das probabilidades de apostas de encerramento (casa-empate-visitante) da Pinnacle Sports, bem como os odds máximos e média dentre uma série de casas de apostas. Dados do campeonato brasileiro de 2012 a 2021`
 
 ## Detalhamento do Projeto
 > Apresente aqui detalhes do processo de construção do dataset e análise. Nesta seção ou na seção de Perguntas podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
 > Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.
 
+<p> Para extrair os dados relevantes da API de partidas de futebol, usamos o módulo requests do Python para fazer as chamadas à API. O código usado foi compartilhado em um notebook do Google Colab e os objetos JSON extraídos foram salvos automaticamente no Google Drive. Inicialmente, tivemos que obter uma lista de todas as partidas do Campeonato Brasileiro de 2019. O objeto JSON retornado pela requisição foi salvo em um arquivo "fixtures.json", que contém uma lista de todas as partidas (fixtures) e um identificador único para cada partida. </p>
+<p>
+Com esses identificadores, pudemos fazer novas requisições sobre informações de cada partida (fixtures/events e fixtures/lineups). Dessas requisições, criamos dois dicionários (um para os eventos e outro para os lineups) com 380 entradas cada, em que cada entrada tem como chave o ID da partida da API.</p>
+
 ~~~python
-df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
-sns.set(color_codes=True);
-sns.distplot(df.Hemoglobin);
-plt.show();
+# para cada partida
+if str(id_partida) not in events_dict.keys():
+  # requisitar e salvar eventos da partida em fixtures-events.json
+  events_response = requests.request("GET", events_url, headers=headers, params=querystring)
+  new_events_data = events_response.json()
+  events_dict[str(id_partida)] = new_events_data['response']
 ~~~
+<p>Esses dicionários foram então salvos em dois arquivos (fixtures-events.json e fixtures-lineups.json) para serem lidos posteriormente.</p>
+
+~~~python
+with open(path_to_fixtures_events, 'w') as f:
+    json.dump(events_dict, f)
+    f.close()
+~~~
+<p>
+Com os três arquivos JSON em mãos (fixtures.json, fixtures-events.json e fixtures-lineups.json), com 380 entradas cada, pudemos lê-los afim de criar as seguintes tabelas:</p>
+
+- Partidas: partidas.csv
+- Jogadores: jogadores.csv
+- Treinadores(Técnicos): treinadores.csv
+- Cartões Amarelos: cartaoa.csv
+- Cartões Vermelhos: cartaov.csv
+- Times: times.csv
+- Gols: gols.csv
+- Substutuições: subst.csv
+
+<p>Exemplo de trecho de código que extrai de fixtures-lineups.json dados para construir a tabela de todos os técnicos:</p>
+
+~~~python
+TODO
+~~~
+<p>Para extrair os dados relevantes da tabela de Odds</p>
 
 > Se usar Orange para alguma análise, você pode apresentar uma captura do workflow, como o exemplo a seguir e descrevê-lo:
 ![Workflow no Orange](images/orange-zombie-meals-prediction.png)
