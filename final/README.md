@@ -189,20 +189,17 @@ Primeiramente carregamos as tabelas de substituicoes e de times
 >
 ### Perguntas/Análise com Resposta Implementada
 
-> As respostas às perguntas podem devem ser ilustradas da forma mais rica possível com tabelas resultantes, grafos ou gráficos que apresentam os resultados. Os resultados podem ser analisados e comentados. Veja um exemplo de figura ilustrando uma comunidade detectada no Cytoscape:
-
-> ![Comunidade no Cytoscape](images/cytoscape-comunidade.png)
-
 #### Pergunta/Análise 1
 > * Pergunta 1
+> 
 >   Qual a relação entre substituições e o desempenho de um time no campeonato
 >   * Foi decidido que para essa análise utilizariamos o Orange. Primeiramente, então carregamos as tabelas de substituições e de times na ferramenta e realizamos o join, depois selecionamos apenas as colunas com nome e tempo do time. A partir daí contamos as ocorrências de substituições e agrupamos por time e calculamos a média do tempo de substituição. Depois visualizamos a média geral de tempo de substituição e de número de substituição. Em um primeiro momento selecionamos apenas os times com tempo de substituição acima da média e foi possível verificar a presença de times bem posicionados no campeonato, como o campeão, por exempo. Já em um segundo momento, diante dos times com número de substituições acima da média foi possível perceber a presença de um grande número de times com desempenho fraco, dentre eles vários que seriam rebaixados para a segunda divisão no próximo ano. A conclusão, portanto é que times com bom desempenho geralmente precisam realizar poucas substituições.
 
 #### Pergunta/Análise 2
 > * Pergunta 2
->   
->   * Explicação sucinta da análise que será feita e conjunto de queries que
->     responde à pergunta.
+>
+>   Defesas mais sólidas tem impacto nas vitórias fora de casa?
+>   * Utilizamos o sqlite3 para fazer essa analise, onde, por meio das tabelas de Partidas e Estatisticas de Gols tentamos obter uma resposta. Para isso, criamos duas views, uma com as estatisticas de partidas sem sofrer gols por cada time e com jogos sem marcar gols, além dessa, criamos uma outra view, que pegava os resultados com apenas vitórias fora de casa. Daí, ordenamos estas duas views por ordem decrescente, a primeira, por partidas sem sofrer gols e a segunda, pela quantidade de vitorias fora de casa. Analisando o resultado, temos que existe um impacto em ter uma defesa mais sólida nas vitorias fora de casa, onde os times que menos tomaram gols no campeonato foram em sua maioria, os que mais figuraram dentre as primeiras posições de vitorias fora de casa.
 
 #### Pergunta/Análise 3
 > * Pergunta 3
@@ -227,4 +224,5 @@ Primeiramente carregamos as tabelas de substituicoes e de times
 >   
 >   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
 
-> Coloque um link para o arquivo do notebook que executa o conjunto de queries. Ele estará dentro da pasta `notebook`. Se por alguma razão o código não for executável no Jupyter, coloque na pasta `src`. Se as queries forem executadas atraves de uma interface de um SGBD não executável no Jupyter, como o Cypher, apresente na forma de markdown.
+> Links das queries:
+> 
