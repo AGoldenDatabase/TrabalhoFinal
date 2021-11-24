@@ -162,7 +162,8 @@ Com o csv de Odds pudemos juntas ambos os dados na construção da tabela "parti
 
 
 > Se usar Orange para alguma análise, você pode apresentar uma captura do workflow, como o exemplo a seguir e descrevê-lo:
-![Workflow no Orange](images/orange-zombie-meals-prediction.png)
+![Workflow no Orange](assets/orange.png)
+Primeiramente carregamos as tabelas de substituicoes e de times 
 
 > Coloque um link para o arquivo do notebook, programas ou workflows que executam as operações que você apresentar.
 
@@ -194,9 +195,8 @@ Com o csv de Odds pudemos juntas ambos os dados na construção da tabela "parti
 
 #### Pergunta/Análise 1
 > * Pergunta 1
->   
->   * Explicação sucinta da análise que será feita e conjunto de queries que
->     responde à pergunta.
+>   Qual a relação entre substituições e o desempenho de um time no campeonato
+>   * Foi decidido que para essa análise utilizariamos o Orange. Primeiramente, então carregamos as tabelas de substituições e de times na ferramenta e realizamos o join, depois selecionamos apenas as colunas com nome e tempo do time. A partir daí contamos as ocorrências de substituições e agrupamos por time e calculamos a média do tempo de substituição. Depois visualizamos a média geral de tempo de substituição e de número de substituição. Em um primeiro momento selecionamos apenas os times com tempo de substituição acima da média e foi possível verificar a presença de times bem posicionados no campeonato, como o campeão, por exempo. Já em um segundo momento, diante dos times com número de substituições acima da média foi possível perceber a presença de um grande número de times com desempenho fraco, dentre eles vários que seriam rebaixados para a segunda divisão no próximo ano. A conclusão, portanto é que times com bom desempenho geralmente precisam realizar poucas substituições.
 
 #### Pergunta/Análise 2
 > * Pergunta 2
